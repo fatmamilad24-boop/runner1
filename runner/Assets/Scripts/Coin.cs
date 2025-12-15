@@ -1,4 +1,4 @@
-using UnityEngine;
+using UnityEngine; // Add this line
 
 public class Coin : MonoBehaviour
 {
@@ -7,7 +7,6 @@ public class Coin : MonoBehaviour
     
     void Update()
     {
-        // Rotate around X-axis (like a flipping coin)
         transform.Rotate(Vector3.right, rotationSpeed * Time.deltaTime);
     }
     
@@ -15,17 +14,10 @@ public class Coin : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            GameObject scoreManagerObject = GameObject.Find("ScoreManager");
-            
-            if (scoreManagerObject != null)
+            if (ScoreManager.instance != null)
             {
-                ScoreManager scoreManager = scoreManagerObject.GetComponent<ScoreManager>();
-                if (scoreManager != null)
-                {
-                    scoreManager.AddScore(coinValue);
-                }
+                ScoreManager.instance.AddScore(coinValue);
             }
-            
             Destroy(gameObject);
         }
     }
