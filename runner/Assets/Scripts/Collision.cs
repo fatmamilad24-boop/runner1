@@ -2,12 +2,17 @@ using UnityEngine;
 
 public class ObstacleCollision : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<PlayerMovement>().enabled = false;
+            PlayerMovement pm = other.GetComponent<PlayerMovement>();
+            if (pm != null)
+            {
+                pm.enabled = false;
+            }
 
+            Debug.Log("Player hit obstacle");
         }
     }
 }
