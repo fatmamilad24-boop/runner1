@@ -374,6 +374,7 @@
 "Assets/Scripts/CodeMenu.cs"
 "Assets/Scripts/Coin.cs"
 "Assets/Scripts/Collision.cs"
+"Assets/Scripts/PauseResume.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/ScoreManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
