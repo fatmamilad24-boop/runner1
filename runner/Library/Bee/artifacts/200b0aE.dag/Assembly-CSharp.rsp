@@ -376,6 +376,7 @@
 "Assets/Scripts/Collision.cs"
 "Assets/Scripts/PauseResume.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/PlaySoundOnTrigger.cs"
 "Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/SegmentGenerator.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
