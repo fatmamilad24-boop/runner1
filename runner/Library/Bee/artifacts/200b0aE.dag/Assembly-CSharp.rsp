@@ -378,7 +378,7 @@
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/PlaySoundOnTrigger.cs"
 "Assets/Scripts/ScoreManager.cs"
-"Assets/Scripts/SegmentGenerator.cs"
+"Assets/scrptable objects/PlayerStatsSO.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
