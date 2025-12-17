@@ -12146,6 +12146,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1244418658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244418655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe04d5b152154665b1264f20eb6d115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1247347413
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14850,11 +14862,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1572367614}
-  - component: {fileID: 1572367619}
   - component: {fileID: 1572367620}
   - component: {fileID: 1572367621}
   - component: {fileID: 1572367623}
   - component: {fileID: 1572367622}
+  - component: {fileID: 1572367624}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -14877,18 +14889,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1572367619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1572367612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27428ac7e480a41a69e8ee4a6fe4dcb7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1572367620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15030,6 +15030,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64c153b9133dc45859e2690b651502c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1572367624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572367612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27428ac7e480a41a69e8ee4a6fe4dcb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1574621394 stripped
@@ -17078,9 +17090,9 @@ GameObject:
   - component: {fileID: 1737676210}
   - component: {fileID: 1737676209}
   - component: {fileID: 1737676208}
-  - component: {fileID: 1737676207}
   - component: {fileID: 1737676206}
   - component: {fileID: 1737676205}
+  - component: {fileID: 1737676211}
   m_Layer: 0
   m_Name: cube (1)
   m_TagString: Untagged
@@ -17130,18 +17142,6 @@ MonoBehaviour:
   forwardSpeed: 5
   sideSpeed: 3
   rb: {fileID: 0}
---- !u!114 &1737676207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737676203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fe04d5b152154665b1264f20eb6d115, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1737676208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17216,6 +17216,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1737676203}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1737676211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737676203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fe04d5b152154665b1264f20eb6d115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1738140199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19000,6 +19012,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1085097881941292, guid: 8e00364320862a746a6e67a5af5e5979, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1244418657}
+    - targetCorrespondingSourceObject: {fileID: 1085097881941292, guid: 8e00364320862a746a6e67a5af5e5979, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1244418658}
   m_SourcePrefab: {fileID: 100100000, guid: 8e00364320862a746a6e67a5af5e5979, type: 3}
 --- !u!1 &1931118404
 GameObject:
